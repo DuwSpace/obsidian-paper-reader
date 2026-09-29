@@ -11,6 +11,12 @@ This walkthrough uses an original synthetic example. It requires your own config
 7. Choose **保存解读** (Save explanation) and ask: “Expand the derivative into a short self-contained explanation.” After completion, a note should appear under `Papers/Linear-interpolation/Explanations/`, and `Paper.md` should have a “Further reading” link under the source heading.
 8. Choose **记录想法** (Record idea) for an unverified hypothesis; the note appears under `Ideas/`.
 
+## Verified desktop example
+
+![Paper Reader displaying a selected interpolation path, its chart, a rendered mathematical answer, and a source backlink](images/reading-demo.png)
+
+Verified on macOS with Obsidian 1.13.7 and Paper Reader 0.5.0 on September 29, 2026: one mouse selection captured text, LaTeX and the chart; Codex streamed the response; the completed explanation rendered its display equation and was saved under `Explanations/` with English provenance metadata and a link back to the source section. The original note received the visible “Further reading” link. This screenshot uses only the original synthetic example. It does not establish Windows/Linux compatibility or test every item below.
+
 ## Expected result
 
 ```text

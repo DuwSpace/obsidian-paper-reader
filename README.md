@@ -104,7 +104,7 @@ npm run build
 - `tests/`: fake backend processes and Obsidian interface fixtures. Tests do not call paid APIs.
 - `examples/`: original sample notes and an image for manual checks.
 
-The GitHub release tag must exactly match `manifest.json` (for example `0.5.0`, with no `v` prefix). The release workflow tests, builds, and attaches the three installation files. Source `main.js` is committed for review; CI checks that it matches the build.
+The GitHub release tag must exactly match `manifest.json` (for example `0.5.0`, with no `v` prefix). The initial release was tested, built and uploaded manually. CI and release workflow files are prepared locally; enabling them is pending GitHub authorization for the `workflow` scope. Source `main.js` is committed for review.
 
 ## Feedback
 
