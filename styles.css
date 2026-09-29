@@ -1,0 +1,46 @@
+.codex-reader { display: flex; flex-direction: column; gap: 8px; padding: 12px !important; height: 100%; min-height: 0; }
+.codex-reader .cr-top, .codex-reader .cr-tools, .codex-reader .cr-actions { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.codex-reader .cr-top { justify-content: space-between; }
+.codex-reader h3 { margin: 0; font-size: 16px; }
+.codex-reader button { font-size: 12px; }
+.codex-reader .cr-context { border: 1px solid var(--background-modifier-border); border-radius: 8px; padding: 8px; font-size: 12px; max-height: 150px; overflow: auto; flex-shrink: 0; }
+.codex-reader .cr-source { color: var(--text-accent); overflow-wrap: anywhere; }
+.codex-reader blockquote { margin: 6px 0 0; padding-left: 8px; border-left: 2px solid var(--interactive-accent); white-space: pre-wrap; }
+.codex-reader .cr-muted, .codex-reader .cr-hint, .codex-reader .cr-footnote { color: var(--text-muted); font-size: 11px; }
+.codex-reader .cr-hint { min-height: 16px; }
+.codex-reader .cr-task-hint { color: var(--text-warning); }
+.codex-reader .cr-options select { width: 100%; }
+.codex-reader .cr-messages { flex: 1 1 150px; min-height: 80px; overflow-y: auto; overflow-x: hidden; }
+.codex-reader .cr-empty { font-size: 13px; color: var(--text-muted); padding: 18px 6px; line-height: 1.7; }
+.codex-reader .cr-message { padding: 10px; border-radius: 8px; margin-bottom: 10px; border: 1px solid var(--background-modifier-border); }
+.codex-reader .cr-user { background: var(--background-secondary); }
+.codex-reader .cr-error { color: var(--text-error); }
+.codex-reader .cr-message-label { font-size: 11px; color: var(--text-muted); margin-bottom: 6px; }
+.codex-reader .cr-body { font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; user-select: text; }
+.codex-reader .cr-user .cr-body, .codex-reader .cr-error .cr-body { white-space: pre-wrap; }
+.codex-reader .cr-body > :first-child { margin-top: 0; }
+.codex-reader .cr-body > :last-child { margin-bottom: 0; }
+.codex-reader .cr-body pre { overflow-x: auto; }
+.codex-reader .cr-copy { margin-top: 8px; margin-left: 4px; }
+.codex-reader .cr-progress { color: var(--text-muted); font-size: 12px; flex-shrink: 0; }
+.codex-reader .cr-input { width: 100%; resize: vertical; min-height: 80px; max-height: 220px; flex-shrink: 0; }
+.codex-reader .cr-footnote { line-height: 1.5; flex-shrink: 0; }
+.codex-reader .cr-model-row { display: flex; align-items: center; gap: 8px; font-size: 12px; }
+.codex-reader .cr-model-row label { flex: 0 0 56px; }
+.codex-reader .cr-model-row select { flex: 1; min-width: 0; width: 0; }
+.codex-reader .cr-body.markdown-rendered { padding: 0; min-width: 0; }
+.codex-reader .cr-body table { border-collapse: collapse; display: block; overflow-x: auto; max-width: 100%; font-size: 12px; }
+.codex-reader .cr-body th, .codex-reader .cr-body td { border: 1px solid var(--background-modifier-border); padding: 5px 8px; }
+.codex-reader .cr-body mjx-container[display="true"] { overflow-x: auto; overflow-y: hidden; max-width: 100%; padding: 6px 0; }
+.codex-reader .cr-body h1 { font-size: 1.35em; }
+.codex-reader .cr-body h2 { font-size: 1.2em; }
+.codex-reader .cr-body h3 { font-size: 1.1em; margin: 1em 0 .5em; }
+.codex-reader .cr-attachment { display: flex; gap: 6px; justify-content: space-between; align-items: center; background: var(--background-secondary); margin-top: 4px; padding: 4px; border-radius: 4px; }
+.codex-reader .cr-attachment span { overflow-wrap: anywhere; }
+.codex-reader .cr-usage { color: var(--text-muted); font-size: 11px; margin-top: 8px; }
+.cr-reference-picker input { width: 100%; margin-bottom: 8px; }
+.cr-reference-list { max-height: 55vh; overflow-y: auto; margin-top: 10px; }
+.cr-reference-row { padding: 12px; border: 1px solid var(--background-modifier-border); border-radius: 8px; margin-bottom: 8px; }
+.cr-reference-preview { overflow-x: auto; max-width: 100%; padding: 8px 0; }
+.cr-reference-preview img { max-height: 140px; max-width: 100%; object-fit: contain; }
+.cr-reference-picker .cr-muted { color: var(--text-muted); font-size: 12px; }

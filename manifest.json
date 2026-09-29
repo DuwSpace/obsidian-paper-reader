@@ -1,0 +1,10 @@
+{
+  "id": "paper-reader",
+  "name": "Paper Reader",
+  "version": "0.5.0",
+  "minAppVersion": "1.13.7",
+  "description": "Discuss selected text, equations and images with Codex or OpenCode, and save linked explanations and research ideas.",
+  "author": "DuwSpace",
+  "isDesktopOnly": true,
+  "authorUrl": "https://github.com/DuwSpace"
+}

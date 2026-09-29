@@ -1,0 +1,12 @@
+{
+  "name": "obsidian-paper-reader",
+  "version": "0.5.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "test": "node --test tests/*.test.js",
+    "check": "node --check src/core.js && node --check src/main.js && node --check src/opencode.js"
+  },
+  "license": "MIT",
+  "description": "Paper reading assistant for Obsidian with Codex and OpenCode backends."
+}
